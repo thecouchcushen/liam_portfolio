@@ -139,17 +139,17 @@ export const interests = [
     {
         interest: 'Kayaking',
         description: 'I picked up Kayaking while I was in school up in Ithaca, NY - in the heart of the finger lakes region. Especially with the onset of COVID I loved getting out on the water',
-        image: ''
+        image: '/kayak.png'
     },
     {
         interest: 'Camping and Hiking',
         description: "Even though I love tech, I equally enjoy getting away from it all and 'unplugging' whenever I get the chance. Ask my about my month-long road trip out west in the Summer of '21. On a quest to knock as many National Parks off my list as I possibly can.",
-        image: ''
+        image: '/campsite.png'
     },
     {
         interest: 'Pottery',
         description: 'Another thing I picked up while living in Ithaca is wheel-thrown pottery. Definitely still a beginner here and working on finding a studio in NYC - but I find pottery to be another great creative outlet when I get tired of staring at screens the whole day',
-        image: ''
+        image: '/pottery.jpg'
     }
 ]
 
@@ -157,6 +157,6 @@ export const books = [
     {
         title: 'Siddhartha',
         author: 'Herman Hesse',
-        image: ''
+        image: '/books/siddhartha.webp'
     }
 ]
