@@ -1,0 +1,32 @@
+
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.nav-wrapper a {
+    min-width: 50px;
+    padding: 5px 50px 5px 50px;
+    margin: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-wrapper a:hover {
+    color: aqua;
+}
+
+@media (max-width: 900px) {
+    .nav-wrapper {
+        justify-content: center;
+    }
+
+    .nav-wrapper a {
+        padding: 5px 20px 5px 20px;
+    }
+}

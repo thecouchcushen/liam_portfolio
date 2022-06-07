@@ -11,7 +11,7 @@ const Projects = (props) => {
             <div className='projects-wrapper'>
             {projects.map((project, i) => 
             <div className='project-wrapper' key={"Project"+i}>
-                <p>{project.title}</p>
+                <p><strong>{project.title}</strong></p>
                 <a href={project.link} target="_blank" rel="noreferrer"><img src={webLogo} alt="cant find web icon"></img>Site</a>
                 <a href={project.repo} target="_blank" rel="noreferrer"><img src={githubLogo} alt="cant find github icon"></img>Repo</a>
                 <img src={project.image} alt="not loaded yet"></img>

@@ -11,7 +11,7 @@ const Interests = (props) => {
             <div className='hobbies-wrapper'>
             {interests.map((interest, i) => 
                 <div className="hobby-wrapper" key={"Hobby"+i}>
-                    <p>{interest.interest}</p>
+                    <p><strong>{interest.interest}</strong></p>
                     <img src={process.env.PUBLIC_URL + interest.image} alt="not loaded yet" width="300px"></img>
                     <p>{interest.description}</p>
                 </div>
@@ -21,7 +21,7 @@ const Interests = (props) => {
             <div className='books-wrapper'>
             {books.map((book, i) => 
                 <div className="book-wrapper" key={"Book"+i}>
-                    <p>{book.title}</p>
+                    <p><strong>{book.title}</strong></p>
                     <p>{book.author}</p>
                     {console.log(process.env.PUBLIC_URL+book.image)}
                     <img src={process.env.PUBLIC_URL+book.image} alt="not loaded yet"></img>

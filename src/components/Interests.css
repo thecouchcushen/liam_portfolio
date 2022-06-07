@@ -6,9 +6,9 @@
 }
 
 .hobby-wrapper {
-    max-width: 500px;
+    max-width: 350px;
     padding: 10px;
-    align-self: center;
+    align-self: baseline;
 }
 
 .books-wrapper {
@@ -19,8 +19,8 @@
 }
 
 .book-wrapper {
-    max-width: 500px;
+    max-width: 350px;
     padding: 10px;
-    align-self: center;
+    align-self: baseline;
 }
 
