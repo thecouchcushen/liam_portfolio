@@ -7,7 +7,7 @@ export const projects = [
         description: 'This was an exercise to get myself used to "thinking in React" so that I could hone my skills and showcase my work',
         image: '',
         link: '',
-        repo: ''
+        repo: 'https://github.com/thecouchcushen/liam_portfolio'
     },
     {
         title: 'Pit Bull Data Visualization',

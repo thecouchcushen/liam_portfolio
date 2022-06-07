@@ -23,7 +23,6 @@ const Interests = (props) => {
                 <div className="book-wrapper" key={"Book"+i}>
                     <p><strong>{book.title}</strong></p>
                     <p>{book.author}</p>
-                    {console.log(process.env.PUBLIC_URL+book.image)}
                     <img src={process.env.PUBLIC_URL+book.image} alt="not loaded yet"></img>
                 </div>
             )}
