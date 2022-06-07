@@ -1,0 +1,26 @@
+.hobbies-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobby-wrapper {
+    max-width: 500px;
+    padding: 10px;
+    align-self: center;
+}
+
+.books-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book-wrapper {
+    max-width: 500px;
+    padding: 10px;
+    align-self: center;
+}
+

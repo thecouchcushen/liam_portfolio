@@ -1,0 +1,12 @@
+.skills-wrapper {
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-wrapper {
+    margin: 5px;
+    padding: 10px;
+}

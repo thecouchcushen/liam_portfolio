@@ -1,0 +1,13 @@
+.projects-wrapper {
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-wrapper {
+    margin: 5px;
+    padding: 10px;
+    max-width: 500px;
+}
