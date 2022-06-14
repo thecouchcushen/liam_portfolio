@@ -2,6 +2,8 @@ import email_img from "../email-outline.svg"
 import github_img from "../github.svg"
 import twitter_img from "../twitter-original.svg"
 import "./Contact.css"
+const {MAPS_API_KEY} = require("../utils/config")
+
 
 const Contact = (props) => {
 
@@ -22,7 +24,7 @@ const Contact = (props) => {
                 width="450"
                 height="300"
                 style={{"border":0}}
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyArWAQp38sNWsx1PAUV0GXRLcXeB07zhjE&q=30+Rockefeller+Plaza, New York+ New York"
+                src={`https://www.google.com/maps/embed/v1/place?key=${MAPS_API_KEY}&q=30+Rockefeller+Plaza, New York+ New York`}
                 >
             </iframe>
             {/*

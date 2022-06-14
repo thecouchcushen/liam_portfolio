@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "webpack-dotenv": "^0.0.2"
   }
 }

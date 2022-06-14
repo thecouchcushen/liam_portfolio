@@ -7,7 +7,6 @@ import Projects from './components/Projects'
 import Interests from './components/Interests'
 import Contact from './components/Contact'
 
-
 const originalHeader = (
   <header className="App-header">
     <img src={logo} className="App-logo" alt="logo" />
