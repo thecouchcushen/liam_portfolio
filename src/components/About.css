@@ -2,7 +2,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    background-color: rgba(128, 128, 128, 0.8);
+    background-color: rgba(128, 128, 128, 0.75);
     padding-bottom: 50px;
     padding-top: 50;
     border-radius: 10px;
@@ -10,9 +10,10 @@
 
 .about-text-background {
     border-radius: 10px;
-    background-image: url('../waterfall.JPG');
+    background-image: url('../goat.png');
     background-size: cover;
-    background-position: center;
+    background-position-x: center;
+    background-position-y:top;
     margin: 10px 30px 10px 30px;
 }
 
@@ -34,4 +35,13 @@
     #about p {
         padding: 0px 30px 0px 30px;
     }
+
+    .about-text-background {
+        background-image: url('../waterfall.JPG');
+        background-position-x: center;
+        background-position-y: center;
+        margin: 10px 30px 10px 30px;
+    }
+    
+
 }

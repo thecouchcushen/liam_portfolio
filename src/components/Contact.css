@@ -3,3 +3,12 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+.contact-logo {
+    width: 50px;
+    opacity: 75%;
+}
+
+.contact-link {
+    margin: 20px;
+}
